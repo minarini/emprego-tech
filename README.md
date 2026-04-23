@@ -140,6 +140,11 @@ Entidades principais:
    * senha: `usbw`
    * banco: `emprego tech`
 4. Inicie Apache e MySQL
+
+## 🔧 Configuração
+
+Renomeie o arquivo `conexao.example.php` para `conexao.php` e preencha com suas credenciais locais.
+
 5. Acesse:
 
    * `http://localhost/empregotech/`
