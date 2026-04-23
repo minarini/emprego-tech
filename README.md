@@ -160,7 +160,7 @@ Renomeie o arquivo `conexao.example.php` para `conexao.php` e preencha com suas 
 
 ---
 
-## 🔮 Evoluções futuras
+## 🔮 Evoluções observadas
 
 * Refatoração para arquitetura em camadas
 * Introdução de framework (ex: Laravel ou Spring)
