@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Emprego Tech  </title>
+   <link rel="icon" href="images/boneco.png" type="image/png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- header -->
+   <header class="header">
+      <div class="logos-container">
+         <a href="#home" class="logo1"> <img src="images/logo1.png" height="60px" width="265px"></a>
+      </div>
+      <nav class="navbar">
+         <a href="#home">Inicio</a>
+         <a href="#about">Sobre nós</a>
+         <a href="../cadempresa/html/cadastro_empresa.php">Para empresas</a>
+         <a href="../vagas/vagas.html">Vagas</a>
+         <a href="#services">Parcerias</a>
+         <a href="#share">Contato</a>
+         <a href="../login.php" class="btn">Login</a>
+      </nav>
+      
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </header>
+   <!-- end -->
+
+   <!-- home -->
+   <section class="home" id="home">
+      <div class="swiper home-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background: url(images/tech1.png) no-repeat;">
+               <div class="content">
+                  <h3>Seu emprego a um clique de distância</h3>
+                  <a href="../formulario.php" class="btn"> Cadastre-se!</a>
+               </div>
+            </div>
+            
+            <div class="swiper-slide slide" style="background: url(images/tech4.jpg) no-repeat;">
+               <div class="content">
+                  <h3>É candidato e não tem conta ainda? venha fazer seu cadastro</h3>
+                  <a href="../formulario.php" class="btn"> Cadastre-se!</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/tech3.png) no-repeat;">
+               <div class="content">
+                  <h3>Deseja se candidatar? faça seu cadastro!</h3>
+                  <a href="../formulario.php" class="btn"> Cadastre-se!</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/tech5.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Novas oportunidades de emprego sempre</h3>
+                  <a href="../formulario.php" class="btn"> Cadastre-se!</a>
+               </div>
+            </div>
+            
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+   </section>
+   <!-- end -->
+
+   <!-- sobre -->
+   <section class="about" id="about">
+      <div class="row">
+         <div class="image">
+            <img src="images/icone.jpg" alt="" class="floating-image">
+         </div>
+            <div class="content">
+            <h3>sobre nós</h3>
+            <p>O Emprego Tech ajudará você na busca do emprego ou candidato ideal</p>
+            <p>Acreditamos que essa abordagem inovadora pode facilitar a inserção dos 
+            jovens no mercado de trabalho e contribuir para o crescimento do setor de 
+            tecnologia. O Emprego Tech é gratuito para os jovens que estão em busca de 
+            seu primeiro emprego e estamos em constante busca por parcerias com empresas 
+            que desejam contratar talentos promissores. Junte-se a nós e faça parte dessa 
+            revolução no mercado de empregos para recém-formados em tecnologia.</p>
+         </div>
+      </div>
+   </section>
+   <!-- end -->
+
+   <!-- vagas -->
+   <section class="room" id="room">
+      <h1 class="heading">principais vagas</h1>
+      <div class="swiper room-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">salario</span>
+                  <img src="images/vaga1.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Analista de sistemas</h3>
+                  <p>Descubra as diversas vagas para analista de sistemas</p>
+                  <a href="../vagas/vagas.html" class="btn">ver mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">salario</span>
+                  <img src="images/vaga2.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Desenvolvedor web</h3>
+                  <p>Novas vagas estão sempre sendo adicionadas</p>
+                  <a href="../vagas/vagas.html" class="btn">ver mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">salario</span>
+                  <img src="images/vaga3.png" alt="">
+               </div>
+               <div class="content">
+                  <h3>Analista de dados</h3>
+                  <p>Descubra as vagas que mais combinam com você</p>
+                  <a href="../vagas/vagas.html" class="btn">ver mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">salario</span>
+                  <img src="images/vaga4.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Programador Java</h3>
+                  <p>Sabe programar em Java? confira as principais vagas</p>
+                  <a href="../vagas/vagas.html" class="btn">ver mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">salario</span>
+                  <img src="images/vaga5.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Especialista em redes</h3>
+                  <p>Vagas para as mais diversas áreas especializadas em redes</p>
+                  <a href="../vagas/vagas.html" class="btn">ver mais</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">salario</span>
+                  <img src="images/vaga6.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Programador em Phyton</h3>
+                  <p> Confira as melhores vagas da linguagem do momento</p>
+                  <a href="#" class="btn">ver mais</a>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+   <!-- end -->
+
+   <!-- parcerias -->
+   <section class="services" id="services">
+      <h1 class="heading">Empresas parceiras </h1>
+      <h3 class="subtext"> Faça parte de uma equipe de sucesso e impulsione sua carreira!</h3>
+         <div class="box-container">
+         <div class="box">
+            <img src="images/icon1.png" alt="Amazon">
+            <h3> Amazon </h3>
+         </div>
+         <div class="box">
+            <img src="images/icon2.png" alt="Netflix">
+            <h3> Netflix </h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon3.png" alt="Google">
+            <h3>Google</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon4.png" alt="IBM">
+            <h3>IBM</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/icon5.png" alt="Chevrolet">
+            <h3>Chevrolet</h3>
+         </div>
+      </div>
+   </section>
+   <!-- end -->
+
+   <!-- planos -->
+   <h1 class="heading">é empresa? conheça nossos planos</h1>
+   <div class="container">
+      <div class="card">
+          <div class="card-title">
+              <h2>Mensal</h2>
+              <p><i class=""></i><Span>R$ 500.00</Span></p>
+          </div>
+          <div class="card-content">
+              <ul>
+                  <li><i class="fa fa-check-circle"></i>Pague por mês podendo cancelar a qualquer momento</li>
+                  <li><i class="fa fa-check-circle"></i>Encontre candidatos qualificados</li>
+                  <li><i class="fa fa-check-circle"></i>Curto investimento</li>
+                  <li><i class="fa fa-check-circle"></i>Um mês para contratar funcionarios ilimitados</li>
+                 
+              </ul>
+              <button><a class="assinar" href="../pagamento/pagamento.html" data-plano="plano1">Assinar</a></button>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-title">
+              <h2>Semestral</h2>
+              <p><i class=></i><Span>R$ 3000.00</Span></p>
+          </div>
+          <div class="card-content">
+              <ul>
+                  <li><i class="fa fa-check-circle"></i>Garanta tranquilidade na contratação</li>
+                  <li><i class="fa fa-check-circle"></i>Encontre candidatos qualificados</li>
+                  <li><i class="fa fa-check-circle"></i>Contate funcionarios ilimitados neste periodo de tempo</li>
+                  <li><i class="fa fa-check-circle"></i>Maiores chances </li> 
+              </ul>
+              <button><a class="assinar" href="../pagamento/pagamento.html" data-plano="plano2">Assinar</a></button>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-title">
+              <h2>Anual</h2>
+              <p><i class=""></i><Span>R$ 5000.00</Span></p>
+          </div>
+          <div class="card-content">
+              <ul>
+                  <li><i class="fa fa-check-circle"></i>Economize mais de 15%</li>
+                  <li><i class="fa fa-check-circle"></i>Encontre candidatos qualificados</li>
+                  <li><i class="fa fa-check-circle"></i>Contrate funcionarios ilimitados neste periodo de tempo</li>
+                  <li><i class="fa fa-check-circle"></i>Tenha a sua disposição os melhores profissionais</li>
+              </ul>
+              <button><a class="assinar" href="../pagamento/pagamento.html" data-plano="plano3">Assinar</a></button>
+          </div>
+      </div>
+  </div>
+   <!-- end -->
+
+   <!-- footer -->
+   <section class="footer">
+      <div class="box-container">
+         <div class="box">
+            <h3>contato</h3>
+            <a> <i class="fas fa-phone"></i> (11) 4002-8922 </a>
+            <a href="mailto:siteempregotech@gmail.com"> <i class="fas fa-envelope"></i> siteempregotech@gmail.com</a>
+            <a> <i class="fas fa-map"></i> Itaquaquecetuba</a>
+         </div>
+      </div>
+   <!-- end -->
+      
+   <!-- midias -->
+      <div class="share" id="share">
+         <h3 class="text">siga-nos</h3>
+         <a href="#" class="share-icon linkedin">
+            <img src = "images/parceria.png" alt="LinkedIn">
+         </a>
+         <a href="https://www.instagram.com/emprego_tech/" class="share-icon instagram">
+            <img src = "images/parceria1.png" alt="Instagram">
+         </a>
+         <a href="#" class="share-icon twitter">
+            <img src = "images/parceria2.png" alt="Twitter">
+      </div>
+   <!-- end -->
+
+   <!-- copyright -->
+      <div class="credit"> &copy; copyright 2023 - Emprego Tech
+   </section>
+   <!-- end -->
+
+   <!-- javascript -->
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="../pagamento/tipo_do_plano.js"></script>
+   <!-- end -->
+
+</body>
+</html>
