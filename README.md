@@ -173,10 +173,9 @@ Renomeie o arquivo `conexao.example.php` para `conexao.php` e preencha com suas 
 
 Projeto desenvolvido em 2023 como TCC da ETEC, com foco em aplicar fundamentos de desenvolvimento web full stack.
 
-Este repositório é mantido como registro acadêmico e portfólio backend, não recebendo novas evoluções.
-
 ---
 
 <p align="center">
-  ✨ Projeto em evolução — refletindo aprendizado contínuo ✨
+   Este repositório é mantido como registro acadêmico e portfólio backend, não recebendo novas evoluções.
+ 
 </p>
